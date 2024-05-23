@@ -38,7 +38,7 @@ export const Home = () => {
     };
   return (
     <div className='overflow-x-hidden px-2'>
-        <div className='relative'>
+        <div className='relative h-[500px]'>
             <Slider ref={sliderRef} {...settings}>
                 {
                     HomeSlider.map(slide => {

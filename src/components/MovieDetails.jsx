@@ -6,6 +6,7 @@ import { fetchDetails } from '../store/details'
 export const MovieDetails = () => {
     const [loading, setLoading] = useState(true)
     const { id } = useParams()
+    console.log(id)
     const details = useSelector(state => state.det.users)
     const dispatch = useDispatch()
     console.log(details)
