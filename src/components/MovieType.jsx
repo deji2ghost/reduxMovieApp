@@ -23,7 +23,7 @@ export const MovieType = () => {
                                 src={`https://image.tmdb.org/t/p/original${mov?.poster_path}`}
                                 className='w-full h-[250px]'
                             />
-                            <div className='bg-zinc-800 p-2 h-[150px] flex flex-col gap-2 font-serif'>
+                            <div className='bg-zinc-800 p-2 h-[250px] flex flex-col gap-2 font-serif'>
                                 <h1 className='text-wrap'><b>Title:</b> {mov?.title}</h1>
                                 <p><b>Popularity:</b> {mov?.popularity}</p>
                                 <p><b>Release Date:</b> {mov?.release_date}</p>

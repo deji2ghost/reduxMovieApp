@@ -46,7 +46,7 @@ export const Home = () => {
                             <div key={slide.id}>
                                 <img 
                                     src={`https://image.tmdb.org/t/p/original/${slide?.poster_path}`} 
-                                    className='h-[500px] w-full object-fit'
+                                    className='h-[500px] w-full object-contain md:object-fill'
                                 />
                             </div>
                         )
